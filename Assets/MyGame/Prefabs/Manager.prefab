@@ -43,3 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9287b6563838dce4d9bc308d9c022586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayKidsName: {fileID: 0}
+  ipfKidsNameTMP: {fileID: 0}

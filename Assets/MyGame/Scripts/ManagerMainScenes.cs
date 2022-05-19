@@ -5,31 +5,23 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
-public enum MyScenes
+public class ManagerMainScenes : MonoBehaviour
 {
-    Welcome,
-    Round1,
-    Round2,
-    Round3,
-    End
-}
-
-public class Manager : MonoBehaviour
-{
-    public TMP_InputField ipfKidsNameTMP;
+    public TMP_Text displayKidsName;
 
     private SoRuntimeData runtimeData;
 
     void Start()
     {
         runtimeData = Resources.Load<SoRuntimeData>("Kinderaddierer");
+
+        displayKidsName.text = runtimeData.nameKid;
     }
-    
+
     //Aufruf in Inspector OnClick bei Button, generisch über Parameter
     public void SwitchScene(int x)
     {
-        runtimeData.nameKid = ipfKidsNameTMP.text;
-        
         SceneManager.LoadScene(x);
     }
+
 }

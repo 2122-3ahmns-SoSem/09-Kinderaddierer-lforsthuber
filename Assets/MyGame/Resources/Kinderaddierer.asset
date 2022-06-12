@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b3def73f77a4924c94b0b8afd72a2ca, type: 3}
   m_Name: Kinderaddierer
   m_EditorClassIdentifier: Assembly-CSharp::SoRuntimeData1
-  nameKid: laura
+  nameKid: ' '
+  selectedImg: ' '
+  scoreResult: ' '
+  scoreMessage: 0

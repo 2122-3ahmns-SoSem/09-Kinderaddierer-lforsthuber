@@ -5,11 +5,14 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
-public class ManagerMainScenes : MonoBehaviour
+public class ManagerEnd : MonoBehaviour
 {
     public TMP_Text displayKidsName;
     public Image displayImage;
+    public TMP_Text displayScore;
+    public TMP_Text displayMessage;
 
+    private int score;
     private SoRuntimeData runtimeData;
 
     void Start()
@@ -18,6 +21,23 @@ public class ManagerMainScenes : MonoBehaviour
 
         displayKidsName.text = runtimeData.nameKid;
         SetUserImage(runtimeData.selectedImg);
+        displayScore.text = runtimeData.scoreResult;
+        score = runtimeData.scoreMessage;
+
+        if(score >= 3)
+        {
+            displayMessage.text = "Perfekt!";
+        }
+
+        if(score <= 2 && score >= 1)
+        {
+            displayMessage.text = "Das geht doch besser!";
+        }
+
+        if(score < 1)
+        {
+            displayMessage.text = "Versuchs lieber noch mal!";
+        }
     }
 
     void SetUserImage(string imageName)

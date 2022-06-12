@@ -212,7 +212,19 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 151764631}
+        m_TargetAssemblyTypeName: Manager, Assembly-CSharp
+        m_MethodName: BunnyButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -355,7 +367,19 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 151764631}
+        m_TargetAssemblyTypeName: Manager, Assembly-CSharp
+        m_MethodName: CatButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -857,6 +881,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1256401656987832111, guid: c1a6f5af5d3aee846a08f2c527108ba0, type: 3}
+      propertyPath: cat
+      value: 
+      objectReference: {fileID: 154025238}
+    - target: {fileID: 1256401656987832111, guid: c1a6f5af5d3aee846a08f2c527108ba0, type: 3}
+      propertyPath: bear
+      value: 
+      objectReference: {fileID: 1141691849}
+    - target: {fileID: 1256401656987832111, guid: c1a6f5af5d3aee846a08f2c527108ba0, type: 3}
+      propertyPath: bunny
+      value: 
+      objectReference: {fileID: 117329265}
+    - target: {fileID: 1256401656987832111, guid: c1a6f5af5d3aee846a08f2c527108ba0, type: 3}
       propertyPath: ipfKidsName
       value: 
       objectReference: {fileID: 0}
@@ -1264,7 +1300,19 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 151764631}
+        m_TargetAssemblyTypeName: Manager, Assembly-CSharp
+        m_MethodName: BearButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
